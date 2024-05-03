@@ -23,7 +23,11 @@ The `DbManager` class provides interaction with the SQLite database. It provides
 ## Usage
 
 Add a Person: Enter a name in the text field and click the “Add” button. A success message will be displayed if the person is added successfully, otherwise - error message.
+
 Remove a Person: Enter a name in the text field and click the “Remove” button. A success message will be displayed if the person is removed successfully, otherwise - error message.
+
 Print All People: Click the “Print All” button to display a dialog with all the people in the database.
+
 Remove All People: Click the “Remove All” button to remove all people from the database. A success message will be displayed if all records are removed successfully, otherwise - error message.
+
 Check if a Person Exists: Enter a name in the text field and call the checkPersonExists method. If the name field is not empty, it will check if the person exists in the database and display a message accordingly.
